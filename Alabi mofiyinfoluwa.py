@@ -34,7 +34,7 @@ def height(node):
     return max(left_height, right_height) + 1
 
 
-# Creating the binary tree
+
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)
